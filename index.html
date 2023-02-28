@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container bg-light">
+            <div class="row d-inline-flex">
+               
+                <div class="col-md-3">
+                    <br>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsERtVOLWmaUGJuGmzOGw5nDJpzFU9UaIs5wCCuALX8s19ximq2xsDfWExauMV0HE1jxQ&usqp=CAU" class="w-100">
+                    <!-- trigger button for modal -->
+                    <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#activity_modal">Send a Message</button>
+                </div>
+            
+
+                <div class="col-md-9">
+                    <h1 class="display-1">Babadilla, Jhon Michael A.</h1>
+                    <h2>WeB Development Bootcamp Batch 52 Part-time</h2>
+                    <hr>
+                    <p>"123, name of street, name of barangay, Marikina"
+                    <br>
+                    "0908-123-4567"
+                    </p>
+                    <h2 class="display-6">Sample Projects</h2>
+                    <!-- cards -->
+                    <div class="card w-100" style="width: 18rem">
+                        <img src="https://e0.pxfuel.com/wallpapers/828/874/desktop-wallpaper-cotton-solid-color-background-vector-png-psd-files-solid-pastel-pink.jpg" class="card-img-top" style="height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk card's content</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card w-100" style="width: 18rem">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqWX9NlsKfaOQrnkiSoRdfvY6N8cj5GsPj8fqrmiktjzIBMVugTIV-RGSucg0Y-CAK_xI&usqp=CAU" class="card-img-top" style="height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk card's content</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card w-100" style="width: 18rem">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPmxPrjGOhfyYCGoN-AUkyXMT5HpSVKYWdsjRf308a&s" class="card-img-top" style="height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk card's content</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="modal fade" id="activity_modal" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Send a message</h3>
+                        </div>
+                        <div class="modal-body">
+                            <form action method>
+                                <label for="name">Name</label>
+                                <input class="form-control" type="text" id="name" name="name">
+                                <label for="email">Email</label>
+                                <input class="form-control" type="email" name="email" id="email">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" name="message" id="message" style="height: 154px;"></textarea>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-success">Send</button>
+                            <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- footer  -->
+            <div>
+                <center>
+                    <h5>KodeGo Activity</h5>
+                    <p>Saturday - February 25, 2023</p>
+                </center>
+            </div>
+    </div>
+    
+</body>
+</html>
